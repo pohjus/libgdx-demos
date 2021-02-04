@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileb.png" width="512" height="512"/>
+ </tileset>
+ <layer name="grey-background-layer" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKgDAMQNGMHqFHcBYtvf/JTKCrOPaLf/iQMeSNGRFxZlfWgXM1spYd8LbZ6j3eah+55z5bvYfuuuuuu+666647Nd11J6e77uR0152c7rqT0113crr/071uWT8kyk/raa4dbxdIUYI=
+  </data>
+ </layer>
+ <layer name="collectable-items-layer" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJACAMA8Duv4s7+hI/PqWCuZugKSRVQIfx+oAGCRkBFpsH96T2KTU3QDLbv/kF/Eu/4WwCXJQFaQ==
+  </data>
+ </layer>
+ <layer name="wall-layer" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1tEJACAIQEGXaf8VW0A/C5U7cIH0QREAvHCS4Z/s/e0AZqk61jfMpuU+7GAnfbFVl/+gtujCLcI8F9YzCRw=
+  </data>
+ </layer>
+ <objectgroup name="world-wall-rectangles">
+  <object name="up" x="0" y="0" width="1344" height="32"/>
+  <object name="left" x="0" y="32" width="32" height="1272"/>
+  <object name="down" x="0" y="1312" width="1344" height="32"/>
+  <object name="right" x="1312" y="40" width="32" height="1272"/>
+ </objectgroup>
+ <objectgroup name="collectable-rectangles">
+  <object x="864" y="640" width="32" height="32"/>
+  <object x="224" y="608" width="32" height="32"/>
+  <object x="160" y="448" width="32" height="32"/>
+  <object x="288" y="160" width="32" height="32"/>
+  <object x="352" y="1184" width="32" height="32"/>
+  <object x="480" y="992" width="32" height="32"/>
+  <object x="1024" y="928" width="32" height="32"/>
+  <object x="768" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="ground-rectangles">
+  <object x="448" y="1152" width="160" height="32"/>
+  <object x="608" y="1024" width="160" height="32"/>
+  <object x="384" y="864" width="224" height="32"/>
+  <object x="640" y="768" width="192" height="32"/>
+  <object x="864" y="992" width="288" height="32"/>
+  <object x="160" y="704" width="256" height="32"/>
+  <object x="320" y="512" width="384" height="32"/>
+  <object x="256" y="256" width="160" height="32"/>
+  <object x="640" y="320" width="192" height="32"/>
+ </objectgroup>
+</map>
