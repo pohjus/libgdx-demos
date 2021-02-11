@@ -250,12 +250,12 @@ public class TiledMapDemo extends ApplicationAdapter {
 
 
 		// if able to move, then move
-		if(checkIfInWall(newX, newY)) {
+		if(checkIfAllCornersFree(newX, newY)) {
 			playerSprite.setPosition(newX, newY);
 		}
 	}
 
-	public boolean checkIfInWall(float newX, float newY){
+	public boolean checkIfAllCornersFree(float newX, float newY){
 		float downYPos  = newY;
 		float upYPos    = playerSprite.getHeight() + downYPos;
 		float leftXPos  = newX;
